@@ -1,0 +1,21 @@
+.banner__text {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+}
+.about__us {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-evenly; */
+}
+.about__us p::before {
+    content: '';
+    display: block;
+    width: 35px;
+    border-bottom: 3px solid #fff;
+    position: absolute;
+    left: 0;
+}
+.banner__description {
+    justify-content: flex-end;
+}

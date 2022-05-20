@@ -14,10 +14,7 @@
     align-items: center;
     width: 100%;
 }
-.nav__links li {
-    list-style-type: none;
-}
-.nav__links > li  a {
+.nav__links > a {
     text-decoration: none;
     list-style: none;
     color: #fff;

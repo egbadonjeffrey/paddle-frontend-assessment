@@ -13,7 +13,6 @@ const ComingSoon = () => {
 
   return (
     <>
-      <Navbar />
       <div style={homeStyle}>
         <CountDown />
         <Waitlist />
