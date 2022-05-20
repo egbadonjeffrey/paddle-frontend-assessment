@@ -1,0 +1,40 @@
+footer {
+    /* position: absolute; */
+    /* bottom: 2%; */
+    /* right: 40%; */
+    padding: 5rem;
+    width: 40%;
+    min-height: 5vh;
+    margin: 0 auto;
+    margin-bottom: -3rem;
+    text-align: center;
+}
+footer > div {
+    padding-bottom: 1rem;
+}
+.social__icons {
+    display: flex;
+    width: 40%;
+    margin: 3% auto;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.social__icon {
+    color: #fff;
+    width: 28px;
+    height: 28px;
+}
+.company__documents {
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.company__documents a {
+    text-decoration: none;
+    color: #fff;
+}
+.copyright {
+    color: #fff;
+}

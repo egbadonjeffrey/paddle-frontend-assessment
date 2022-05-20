@@ -1,0 +1,37 @@
+.waitlist__form {
+    padding: 3%;
+}
+form.waitlist_form {
+    width: 60%;
+    text-align: center;
+    margin: 4% auto;
+}
+.name__fields input {
+    color: #fff;
+    border: none;
+    border-bottom: 2px solid rgb(93, 75, 102);
+    background-color: transparent;
+    outline: none;
+    
+
+}
+.name__fields  input:nth-of-type(2) {
+    margin-left: 1rem;
+}
+.email__subscribe {
+    width: 100%;
+    padding: 4%;
+}
+.email__subscribe input {
+    width: 80%;
+    height: 48px;
+    border-radius: 51px;
+    border: none;
+    outline: none;
+    padding-left: 3%;
+    margin-right: -10rem;
+}
+.waitlist__btn {
+    background: #271AC1;
+}
+
