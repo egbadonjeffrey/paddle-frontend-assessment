@@ -1,0 +1,25 @@
+
+.banner__text {
+    display: flex;
+    flex-direction: row;
+}
+.blog__intro {
+    width: 60%;
+}
+.search__field {
+    background: transparent;
+    height: 50px;
+    width: 60%;
+    border-radius: 38px;
+    border: 1px solid #fff;
+    outline:none;
+    color: #fff;
+    padding-left: 1rem;
+}
+.search__icon {
+    margin-left: -5rem;
+    margin-top: 3rem;
+    color: #19073B;
+    width: 31px;
+    height: 31px;
+}
