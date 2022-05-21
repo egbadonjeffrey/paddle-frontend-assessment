@@ -1,30 +1,28 @@
 import React from "react";
 import Footer from "../../components/footer/Footer";
+import KnowMore from "../../components/know_more/KnowMore";
 import Navbar from "../../components/navbar/Navbar";
 import "./aboutus.css";
+import HeroText from "./HeroText";
+import WhyUs from "./WhyUs";
 
 const AboutUs = () => {
   return (
-    <>
+    <div className="about__us">
       <Navbar />
-      <div className="banner__text">
-        <div className="about__us">
-          <hr />
-          About Us
-        </div>
-        <div className="hero__text">
-          <h2>Built for SaaS and E-commerce</h2>
-        </div>
-        <div className="banner__description">
-          Our tools are easy to set up and use with a user friendly dashboard
-          that enables you to set up, launch, automate and manage
-          multi-affiliate campaigns in 5 minutes.
-        </div>
+      <HeroText />
+      <div></div>
+      <div></div>
+      <div className="developed">
+        <h2>
+          Metricks was developed because just like you, we needed a product that
+          could give us <span>good value.</span>
+        </h2>
       </div>
-      <div></div>
-      <div></div>
+      <WhyUs />
+      <KnowMore />
       <Footer />
-    </>
+    </div>
   );
 };
 

@@ -1,0 +1,27 @@
+.hero__banner {
+    background: #210045;
+    display: flex;
+    /* grid-template-columns: repeat(2, 1fr); */
+    margin: 0 auto;
+    padding: 3% 0;
+}
+.hero__banner_2 {
+    width: calc(100% - 30%);
+    margin: 0 auto;
+}
+.metricks__text {
+    text-align: left;
+    color: #fff;
+}
+.metricks__text h4 {
+    font-size: 44px;
+    font-weight: 500;
+}
+.metricks__text p {
+    font-size: 22px;
+    font-weight: 300;
+    margin: 4% 0;
+}
+.metricks__text a {
+    font-size: 22px;
+}
