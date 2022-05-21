@@ -1,25 +1,28 @@
 .navbar {
+    width: calc(100% - 30%);
+    margin: 0 auto;
     display: flex;
     flex-direction: row;
     padding: 2rem;
-}
-.navbar__logo {
     color: #fff;
+}
+.logoImg {
+    width: 50%;
 }
 .nav__links {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-
+    color:black;
     align-items: center;
     width: 100%;
 }
 .nav__links > a {
     text-decoration: none;
     list-style: none;
-    color: #fff;
     text-transform: uppercase;
     font-size: 1rem;
+    color: inherit;
     font-weight: 500;
     margin: 0.5rem;
     border-radius: 5px;

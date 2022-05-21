@@ -1,17 +1,20 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, Route } from "react-router-dom";
 import Button from "../Button/Button";
 import "./navbar.css";
+import metrik__logo from "../../assets/metrik__logo.png";
 
-const Navbar = () => {
+const Navbar = ({ navColor }) => {
   return (
-    <nav className="navbar">
+    <nav className={`navbar ${navColor}`}>
       <div className="navbar__logo">
-        <img
-          src="../../assets/metrics__logo.png"
-          className="logoImg"
-          alt="logo"
-        />
+        <Link to="/">
+          {Route.asPath === "/about" ? (
+            <img src="" className="logoImg" alt="logo" />
+          ) : (
+            <img src={metrik__logo} className="logoImg" alt="logo" />
+          )}
+        </Link>
       </div>
 
       {/* <ul className="nav__links">

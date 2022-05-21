@@ -2,9 +2,18 @@ body {
     background: #FAFAFA;
     color: #000000;
 }
-
+.blogStyle > a {
+    color: #000 !important;
+}
+.blog__intro h2 {
+    font-size: 30px;
+    font-weight: 500;
+}
 .banner__text {
     color: #000;
+}
+.linkColor {
+    color: #000 !important;
 }
 .hero__banner {
     background: #210045;
@@ -17,11 +26,21 @@ body {
     width: calc(100% - 30%);
     margin: 0 auto;
 }
-.hero__text {
-    width: 100%;
-}
 .metricks__text {
     text-align: left;
+    color: #fff;
+}
+.metricks__text h4 {
+    font-size: 44px;
+    font-weight: 500;
+}
+.metricks__text p {
+    font-size: 22px;
+    font-weight: 300;
+    margin: 4% 0;
+}
+.metricks__text a {
+    font-size: 22px;
 }
 .hero__text p {
     justify-content: flex-start;
@@ -32,27 +51,44 @@ body {
 .blog__page {
     width: calc(100% - 30%);
     margin: 0 auto;
+    font-size: 20px;
 }
 .blogs {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 3rem;
 }
-.blog {
-    border-radius: 5px;
-    padding: 10%;
-    width: 15rem;
-    box-shadow: 0px 0px 30px #00000038;
-}
-.blog-button {
-    width: 10%;
-    margin: 0 auto;
-}
+
 .blogs__btn {
     align-self: center;
     background: #7C0FD5;
     margin: 2rem 0;
 }
 .recent__articles {
+    width: 70%;
     margin: 5% 0;
+}
+.recent__articles h3 {
+    font-size: 30px;
+    font-weight: 500;
+}
+.hero__text {
+    width: 30%;
+    margin-left: 20%;
+}
+.hero__text h2 {
+    font-weight: 300;
+    font-size: 45px;
+    text-transform: uppercase;
+}
+.blog__hero_text {
+    display: flex;
+    flex-direction: row;
+}
+
+span.line__before__blog {
+    background: #fff;
+    width: 5rem;
+    height: 2px;
+    margin-top: 0.6rem;
 }

@@ -4,22 +4,31 @@
     flex-direction: row;
 }
 .blog__intro {
-    width: 60%;
+    width: 100%;
 }
-.search__field {
+.search__input {
+    position: relative;
+    width: 60%;
+    margin: 0px 4%;
+    align-self: center;
+    justify-self: center;
+}
+.search__field {    
     background: transparent;
     height: 50px;
-    width: 60%;
+    width: 100%;
+    margin-top: 20px;
     border-radius: 38px;
-    border: 1px solid #fff;
-    outline:none;
+    border: 2px solid #000;
+    outline: black;
     color: #fff;
     padding-left: 1rem;
+    align-self: flex-end;
 }
 .search__icon {
-    margin-left: -5rem;
-    margin-top: 3rem;
+    position: absolute;
     color: #19073B;
-    width: 31px;
-    height: 31px;
+    min-width: 100px;
+    right: 0;
+    top: 2rem;
 }

@@ -1,9 +1,12 @@
 import React from "react";
+import Footer from "../../components/footer/Footer";
+import Navbar from "../../components/navbar/Navbar";
 import "./aboutus.css";
 
 const AboutUs = () => {
   return (
     <>
+      <Navbar />
       <div className="banner__text">
         <div className="about__us">
           <hr />
@@ -20,6 +23,7 @@ const AboutUs = () => {
       </div>
       <div></div>
       <div></div>
+      <Footer />
     </>
   );
 };
