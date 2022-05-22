@@ -5,8 +5,8 @@ import * as ArticleItems from "../../helper/BlogItems";
 const Article = () => {
   return (
     <>
-      {ArticleItems.articleItems.map((BlogItem) => (
-        <div className="blog">
+      {ArticleItems.articleItems.map((BlogItem, index) => (
+        <div key={index} className="blog">
           <p className="date">September 6</p>
           <h4>12 Popup use cases To increase Conversion</h4>
           <p>

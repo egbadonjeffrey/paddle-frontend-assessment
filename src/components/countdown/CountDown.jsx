@@ -4,7 +4,7 @@ import "./countdown.css";
 const CountDown = () => {
   return (
     <>
-      <div className="hero__text">
+      <div className="countdown_hero__text">
         <h2>something awesome is coming soon</h2>
         <p>
           your all-in-one affliate marketing tracking software track, automate

@@ -6,8 +6,8 @@ import * as BlogItems from "../../helper/BlogItems";
 const Blog = () => {
   return (
     <>
-      {BlogItems.blogItems.map((BlogItem) => (
-        <div className="blog">
+      {BlogItems.blogItems.map((BlogItem, index) => (
+        <div key={index} className="blog">
           <img src={blog__picture} alt="blog image" className="blog__image" />
           <p className="date">September 6</p>
           <h4>12 Popup use cases To increase Conversion</h4>

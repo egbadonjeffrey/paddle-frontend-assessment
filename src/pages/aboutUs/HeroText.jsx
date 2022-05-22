@@ -12,7 +12,7 @@ const HeroText = () => {
           <div className="about__title">
             <span></span>
             About Us
-            <div className="hero__text">
+            <div className="aboutus_hero__text">
               <h2>Built for SaaS and E-commerce</h2>
             </div>
           </div>

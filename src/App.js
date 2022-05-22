@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./App.css";
 import ComingSoon from "./pages/landing__page/ComingSoon";
@@ -9,13 +9,17 @@ import Footer from "./components/footer/Footer";
 
 function App() {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" exact element={<ComingSoon />} />
-        <Route path="/about" exact element={<AboutUs />} />
-        <Route path="/blog" exact element={<Blog />} />
-      </Routes>
-    </BrowserRouter>
+    <>
+      <BrowserRouter>
+        <Navbar />
+        <Routes>
+          <Route path="/" exact element={<ComingSoon />} />
+          <Route path="/about" exact element={<AboutUs />} />
+          <Route path="/blog" exact element={<Blog />} />
+        </Routes>
+        <Footer />
+      </BrowserRouter>
+    </>
   );
 }
 

@@ -12,7 +12,6 @@ import KnowMore from "../../components/know_more/KnowMore";
 const Blog = () => {
   return (
     <>
-      <Navbar navColor={`link__color`} />
       <HeroBanner />
       <div className="blog__page">
         <div className="banner__text">
@@ -47,7 +46,6 @@ const Blog = () => {
         </div>
       </div>
       <KnowMore />
-      <Footer />
     </>
   );
 };

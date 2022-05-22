@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./comingsoon.css";
 import CountDown from "../../components/countdown/CountDown";
 import Footer from "../../components/footer/Footer";
@@ -8,12 +8,8 @@ import Waitlist from "../../components/waitlist/Waitlist";
 const ComingSoon = () => {
   return (
     <div className="home__page">
-      <Navbar />
-      <div className="homeStyle">
-        <CountDown />
-        <Waitlist />
-      </div>
-      <Footer />
+      <CountDown />
+      <Waitlist />
     </div>
   );
 };

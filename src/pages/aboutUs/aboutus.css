@@ -1,4 +1,5 @@
 .aboutus__herotext {
+    color: #fff;
     display: flex;
     flex-direction: row;
 }
@@ -13,7 +14,7 @@
 .opaque__div {
     background: rgba(185, 56, 220, 0.349);
     opacity: 0.7;
-    backdrop-filter: blur(1px);
+    backdrop-filter: blur(100px);
     width: 70%;
     height: 60vh;
     z-index: 1;
@@ -22,15 +23,12 @@
     background: #7F4129;
     width: 30%;
     height: 20rem;
-    margin: 3rem 50%;
+    margin: 7rem 50%;
     z-index: -1;
-    opacity: 0.6;
-    -webkit-backdrop-filter: blur(0.2px);
-    backdrop-filter: blur(0.2px);
-    box-shadow: 0 1px 15px 6px #7f4129;
+    box-shadow: 0 1px 13px 13px #7f4129;
     border-radius: 13px;
 }
-.hero__text {
+.aboutus_hero__text {
     width: 60%;
     align-self: center;
 }

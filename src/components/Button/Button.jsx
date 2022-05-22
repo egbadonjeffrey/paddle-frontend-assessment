@@ -1,8 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
 import "./button.css";
 
-const Button = ({ value, styleClass }) => {
-  return <button className={` btn ${styleClass} `}> {value} </button>;
+const Button = ({ value, styleClass, onClick }) => {
+  return (
+    <button className={` btn ${styleClass} `} onClick={onClick}>
+      {" "}
+      {value}{" "}
+    </button>
+  );
 };
 
 export default Button;

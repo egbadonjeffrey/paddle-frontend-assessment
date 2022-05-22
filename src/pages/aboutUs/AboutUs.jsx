@@ -9,7 +9,6 @@ import WhyUs from "./WhyUs";
 const AboutUs = () => {
   return (
     <div className="about__us">
-      <Navbar />
       <HeroText />
       <div></div>
       <div></div>
@@ -21,7 +20,6 @@ const AboutUs = () => {
       </div>
       <WhyUs />
       <KnowMore />
-      <Footer />
     </div>
   );
 };
