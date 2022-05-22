@@ -9,8 +9,8 @@ const Contact = ({ setIsOpen }) => {
   };
   return (
     <>
-      <div className="contactus__modal" onClick={handleClick}>
-        <div className="contactus__divempty"></div>
+      <div className="contactus__modal">
+        <div className="contactus__divempty" onClick={handleClick}></div>
         <div className="contactus__divform">
           <div className="contactus__main">
             <div className="contact__mainHeader">
@@ -49,7 +49,7 @@ const Contact = ({ setIsOpen }) => {
 
                 <div className="textarea__message">
                   <label htmlFor="message">
-                    Tell Us What You Need Help With{" "}
+                    Tell Us What You Need Help With:
                   </label>
                   <textarea
                     placeholder="Enter a problem like channel Problem"

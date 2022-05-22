@@ -29,7 +29,7 @@
   .contactus__main {
     width: 70%;
     height: 70%;
-    margin: 10rem auto;
+    margin: 5rem auto;
     background: transparent;
     color: white;
     z-index: 10;
@@ -60,7 +60,7 @@
     text-align: center;
   }
   .contactus__main > div:nth-of-type(2) {
-    width: 70%;
+    width: 100%;
     margin: auto;
 }
   .contactus__form {
@@ -75,13 +75,30 @@
     margin: 0.5rem 0;
   }
   .contactus__form > div label {
-    
-    margin: 0.3rem 0;
+    font-size: 1rem;
+    margin: 0.5rem 0;
   }
-  .contactus__form > div input {
-    width: 10rem;
+  .contactus__form > div input,
+  .contactus__form > div textarea 
+   {
+    width: 100%;
     height: 4rem;
+    border-radius: 15px;
+    padding: 0 2%;
+    outline: none;
   }
+  .contactus__form > div textarea {
+    height: 10rem;
+    padding: 2% 2%;
+    resize: none;
+  }
+  .contact_form__btn {
+    font-size: 1.1rem;
+    font-weight: 600;
+    background: #271AC1;
+    margin: 7% 0;
+  }
+
   
   
   .closeBtn {
